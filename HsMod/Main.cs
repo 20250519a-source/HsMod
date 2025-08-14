@@ -194,7 +194,7 @@ namespace HsMod
             {
                 if (keyTimeGearUp.Value.IsDown())
                 {
-                    if (timeGear.Value == 64) return;
+                    if (timeGear.Value == 999) return;
                     if (timeGear.Value <= -2 || timeGear.Value >= 2) timeGear.Value += 1;
                     else timeGear.Value = 2;
                     return;
